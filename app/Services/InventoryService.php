@@ -22,11 +22,11 @@ class InventoryService
         //get the Total available units
         $TotalAvailableUnits = abs($TotalPurchase - $TotalApp);
 
-        $result = $this->InventoryService->processRequest($RequestedUnit, $Inventory, $TotalApp, $TotalPurchase, $TotalAvailableUnits);
+        $result = $this->processRequest($RequestedUnit, $Inventory, $TotalApp, $TotalPurchase, $TotalAvailableUnits);
 
         //if success save the Requested quantity
         if(isset($result['success'])){
-            $this->InventoryService->saveAppliedQty($RequestedUnit);
+            $this->saveAppliedQty($RequestedUnit);
         }
 
         return $result;
