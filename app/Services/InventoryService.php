@@ -43,7 +43,7 @@ class InventoryService
         //check if the request is valid
         if ($RequestedUnit <= 0) {
             return [
-                'error' => 'Invalid input',
+                'msg' => 'Invalid input',
                 'quantity' => $RequestedUnit,
                 'available' => $TotalAvailableUnits
             ];

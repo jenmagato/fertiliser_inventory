@@ -74,7 +74,12 @@
                             <p class="mb-0">
                                 Please kindly try again. Requested qty must be > 0
                             </p>
+                            @if (session('available'))
                             <hr>
+                            <p class="mb-0">
+                                <strong>Remaining quantity on hand: </strong> {{ session('available') }}
+                            </p>
+                            @endif
                         </div>
                     @endif
                 </div>
