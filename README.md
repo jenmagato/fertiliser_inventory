@@ -86,4 +86,4 @@ The application should display an interface with a button and a single input tha
 
 <!-- CONTACT -->
 ## Contact
-Jennalyn Magat - https://github.com/jenmagato
+Jenmagat04@gmail.com
