@@ -39,19 +39,20 @@ The application should display an interface with a button and a single input tha
    ```sh
    php artisan serve
    ```
-5. Serve the project.
+6. Create app key
    ```sh
-   php artisan serve
+   php artisan key:generate
    ```
-5. Clear cache if needed
+7. build CSS and JS assets
+   ```sh
+   npm install && npm run build
+   ```
+8. Clear cache if needed
    ```sh
    php artisan config:cache
+   php artisan route:clear
    ```
-5. build CSS and JS assets
-   ```sh
-   npm install && npm run dev
-   ```
-
+   
 ### Database Setup
 1. Make sure to complete env setup above
 2. Run migration to create the inventory table
