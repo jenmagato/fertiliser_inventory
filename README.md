@@ -65,10 +65,10 @@ The application should display an interface with a button and a single input tha
    ```
 
 ## Usage 
-1. Go to http://localhost/figured_fertiliser_inventory/public in order to see the application running.
+1. Go to http://localhost/figured_fertiliser_inventory/public in order to see the application running. 
 
 ## Testing 
-1. Run below command 
+1. Run below command . Note : Kindly follow Database Setup again after testing
    ```sh
    php artisan test
    ```
