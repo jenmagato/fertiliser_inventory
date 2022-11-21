@@ -59,6 +59,7 @@ The application should display an interface with a button and a single input tha
    ```sh
    php artisan migrate
    ```
+   Prompt asking to create "fertiliser_inventory" will be displayed if database not exists. Select "yes" to create it.
 3. Run seeder to populate the inventory table.
    ```sh
    php artisan db:seed
