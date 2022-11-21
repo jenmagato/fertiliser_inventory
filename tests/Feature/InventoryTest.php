@@ -115,10 +115,10 @@ class InventoryTest extends TestCase
         //TotalPurchase : total purchase units is = 0
         //TotalAvailableUnits : total available units is = 0
         $result = $this->InventoryService->processRequest(-6, $array, 0, 0, 0);
-        $this->assertEquals("Invalid input", $result['error']);
+        $this->assertEquals("Invalid input", $result['msg']);
 
         $result = $this->InventoryService->processRequest('', $array, 0, 0, 0);
-        $this->assertEquals("Invalid input", $result['error']);
+        $this->assertEquals("Invalid input", $result['msg']);
     }
 
     public function test_can_get_inventory()
