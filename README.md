@@ -21,11 +21,11 @@ The application should display an interface with a button and a single input tha
 
 1. Clone the repo
    ```sh
-   HTTPS: git clone https://github.com/jenmagato/figured_fertiliser_inventory.git 
+   HTTPS: git clone https://github.com/jenmagato/fertiliser_inventory.git 
    ```
 2. Go inside the folder
    ```sh
-   cd figured_fertiliser_inventory
+   cd fertiliser_inventory
    ```
 3. create .env file and do not forget to set your DB_PASSWORD
    ```sh
@@ -66,7 +66,7 @@ The application should display an interface with a button and a single input tha
    ```
 
 ## Usage 
-1. Go to http://localhost/figured_fertiliser_inventory/public in order to see the application running. 
+1. Go to http://localhost/fertiliser_inventory/public in order to see the application running. 
 
 ## Testing 
 1. Run below command . Note : Kindly follow Database Setup again after testing
